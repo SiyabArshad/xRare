@@ -1,0 +1,54 @@
+    .videoposter{
+        margin: 1%;
+        width: 23%;
+        height: 200px;
+        overflow: hidden;
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            border-radius: .5rem;
+        }
+    }
+    .playbutn{
+        position: relative;
+        bottom: 70%;
+        top: -60%;
+        left: 40%;
+        right: 40%;
+        color: rgba(255, 255, 255, 0.637);
+        .fa-play{
+            font-size: 2rem;
+        }
+    }
+
+    //mobiles
+@media only screen and (max-width: 480px)
+{
+    .fa-play{
+        font-size: 1.2rem;
+    }
+    .videoposter{
+        width: 98%;
+    }
+}
+//tabs
+@media only screen and(min-width:481px) and (max-width: 768px) 
+{
+    .fa-play{
+        font-size: 1.5rem;
+    }
+    .videoposter{
+        width: 48%;
+    }
+}
+//laptops and small screens
+@media only screen and(min-width:769px) and (max-width: 1024px) 
+{
+    .fa-play{
+        font-size: 1.8rem;
+    }
+    .videoposter{
+        width: 31.33%;
+    }
+}

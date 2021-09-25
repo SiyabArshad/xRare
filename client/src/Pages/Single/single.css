@@ -1,0 +1,67 @@
+.singlevideo {
+  padding: 1rem;
+}
+
+.singlevideo span {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.959);
+}
+
+.singlevideo p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: justify;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.637);
+}
+
+.singlevideo .media {
+  width: 100%;
+  height: 60vh;
+}
+
+.singlevideo .media img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.singlevideo button {
+  border-style: none;
+  margin: .5rem;
+  padding: .3rem .7rem .3rem .7rem;
+  border-radius: .2rem;
+  color: #fff;
+  background-color: #db0c26;
+  cursor: pointer;
+}
+
+.singlevideo button:hover {
+  background-color: #fff;
+  color: #000;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+@media only screen and (max-width: 480px) {
+  span {
+    font-size: 1.3rem;
+  }
+  p {
+    font-size: .8rem;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  span {
+    font-size: 1.6rem;
+  }
+  p {
+    font-size: .9rem;
+  }
+}
+/*# sourceMappingURL=single.css.map */

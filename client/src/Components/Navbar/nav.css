@@ -1,0 +1,240 @@
+.nbc {
+  width: 100%;
+  overflow: hidden;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.fst {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.scnd {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.scnd .fmsearch {
+  width: 100%;
+}
+
+.scnd .fmsearch input {
+  width: 80%;
+  background-color: #000;
+  color: #fff;
+  margin-right: .5rem;
+  border-style: none;
+  border-bottom: 2px solid #fff;
+  padding: .4rem;
+}
+
+.scnd .fmsearch input:focus {
+  outline: none;
+}
+
+.scnd .fmsearch button {
+  border-style: none;
+  padding: .4rem;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+.scnd .fmsearch button:hover {
+  background-color: #db0c26;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.thrd {
+  width: 20%;
+}
+
+.thrd img {
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+  border-radius: 50%;
+  float: right;
+}
+
+.ln {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.fa-bars {
+  cursor: pointer;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.smmn {
+  display: none;
+}
+
+.smmn1 {
+  display: block;
+}
+
+.secondmenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.secondmenu ul {
+  display: inline-block;
+}
+
+.secondmenu ul li {
+  display: inline-block;
+  font-size: 1.3rem;
+  padding: .5rem 1rem .5rem 1rem;
+  cursor: pointer;
+  color: #fff;
+  font-family: 'Urbanist', sans-serif;
+  margin-right: .5rem;
+}
+
+.secondmenu ul li:hover {
+  color: #db0c26;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.categ2 {
+  background-color: #000;
+  border-style: none;
+  color: #fff;
+  font-size: 1.1rem;
+  padding: .5rem 1rem .5rem 1rem;
+}
+
+.categ2:focus {
+  outline: none;
+}
+
+.fa-sign-out {
+  color: #fff;
+  padding: .5rem 1rem .5rem 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-left: .8rem;
+}
+
+.fa-sign-out:hover {
+  color: #db0c26;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+@media only screen and (max-width: 480px) {
+  .nbc {
+    padding: .3rem;
+  }
+  .scnd .fmsearch {
+    width: 100%;
+  }
+  .scnd .fmsearch input {
+    width: 60%;
+    margin-right: .3rem;
+    padding: .1rem;
+  }
+  .scnd .fmsearch button {
+    padding: .1rem;
+  }
+  .thrd img {
+    height: 40px;
+    width: 40px;
+  }
+  .ln {
+    font-size: 1.3rem;
+    margin-left: .3rem;
+  }
+  .fa-bars {
+    font-size: 1.1rem;
+  }
+  .secondmenu ul li {
+    font-size: 1rem;
+    padding: .2rem .4rem .2rem .4rem;
+    margin-right: .3rem;
+  }
+  .categ2 {
+    font-size: 1rem;
+    padding: .2rem .4rem .2rem .4rem;
+  }
+  .fa-sign-out {
+    padding: .2rem .4rem .2rem .4rem;
+    font-size: 1.1rem;
+    margin-left: .4rem;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .nbc {
+    padding: .7rem;
+  }
+  .scnd .fmsearch {
+    width: 100%;
+  }
+  .scnd .fmsearch input {
+    width: 60%;
+    margin-right: .3rem;
+    padding: .2rem;
+  }
+  .scnd .fmsearch button {
+    padding: .2rem;
+  }
+  .thrd img {
+    height: 50px;
+    width: 50px;
+  }
+  .ln {
+    font-size: 1.5rem;
+    margin-left: .3rem;
+  }
+  .fa-bars {
+    font-size: 1.3rem;
+  }
+  .secondmenu ul li {
+    font-size: 1.2rem;
+    padding: .3rem .7rem .3rem .7rem;
+    margin-right: .4rem;
+  }
+  .categ2 {
+    font-size: 1.2rem;
+    padding: .3rem .7rem .3rem .7rem;
+  }
+  .fa-sign-out {
+    padding: .3rem .7rem .3rem .7em;
+    font-size: 1.2rem;
+    margin-left: .5rem;
+  }
+}
+/*# sourceMappingURL=nav.css.map */

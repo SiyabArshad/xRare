@@ -1,0 +1,5 @@
+import “bootstrap/dist/bootstrap.min.css”;
+for Regular Regular italic Thin fontstyle:-
+font-family: 'Source Sans Pro', sans-serif;
+for bold fontstyle:-
+font-family: 'Urbanist', sans-serif;

@@ -1,0 +1,93 @@
+.err{
+    background-color:#bb2124;
+    color: #fff;
+    text-align: center;
+}
+.suc{
+    background-color: #22bb33;
+    color: #fff;
+    text-align: center;
+}.loginmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('../../images/feature.jpg');
+    background-position:center;
+}
+.inputfeild{
+    display: block;
+    margin: 1rem;
+    padding: .5rem;
+    border-style: none;
+    font-size: 1.2rem;
+    border-radius: 2%;
+    background-color: #000;
+    color: #fff;
+    &:focus{
+        outline: none;
+    }
+}
+.regbtn{
+    margin: 1rem;
+    border-style: none;
+    padding: .5rem;
+    background-color: #ffff;
+    border-radius: 2%;
+    cursor: pointer;
+    &:hover{
+        background-color: #000;
+        color: #fff;
+        transition: 0.5s;
+    }
+}
+.redsn{
+    color: rgba(255, 255, 255, 0.527);
+    cursor: pointer;
+    display: block;
+    margin: 1rem;
+}
+.logo{
+    color: #fff;
+    text-align: center;
+}
+
+//mobiles
+@media only screen and (max-width: 480px)
+{
+    .inputfeild{
+        margin: .6rem;
+        padding: .3rem;
+        font-size: 1rem;
+        border-radius: 1%;
+    }
+    .regbtn{
+        margin: .6rem;
+        padding: .3rem;
+        border-radius: 1%;
+    }
+    .redsn{
+        margin: .6rem;
+    }
+    
+}
+//tabs
+@media only screen and(min-width:481px) and (max-width: 768px) 
+{
+    .inputfeild{
+        margin: .7rem;
+        padding: .4rem;
+        font-size: 1.1rem;
+        border-radius: 1%;
+    }
+    .regbtn{
+        margin: .7rem;
+        padding: .4rem;
+        border-radius: 1%;
+    }
+    .redsn{
+        margin: .6rem;
+    }
+}

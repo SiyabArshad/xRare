@@ -1,0 +1,21 @@
+.latestmain {
+  padding: 1rem;
+}
+
+.latestmain span {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.latestmain .latest {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  overflow: hidden;
+}
+/*# sourceMappingURL=lat.css.map */
