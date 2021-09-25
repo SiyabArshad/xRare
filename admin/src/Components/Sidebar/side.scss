@@ -1,0 +1,74 @@
+$maintheme:#db0c26;
+.dm{
+    color: $maintheme;
+    margin-right: .5rem;
+    &:hover{
+        transition: 1s;
+        cursor: pointer;
+        color: #000;
+    }
+
+}
+.logo{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    color: #000; 
+}
+.lik{
+    color: #000;
+    text-decoration: none;
+}
+
+.sidebar{
+    position: relative;
+   background-color: #fff;
+    height: 100%;
+    width: 100%;
+   ul{
+       position: relative;
+       top: 20%;
+   }
+    li{
+        text-align: center;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        color: #000;
+        cursor: pointer;
+        img{
+           width: 60px;
+           height: 60px;
+           border-radius: 50%;
+           cursor: pointer;
+        }
+        &:hover{
+            transition: 1s;
+            cursor: pointer;
+            color: $maintheme;
+        }
+    }
+}
+
+//mobiles
+@media only screen and (max-width: 480px)
+{
+    .sidebar{
+        li{
+            font-size: 1rem;
+            margin-bottom: .7rem;
+        }
+    }
+      
+}
+//tabs
+@media only screen and(min-width:481px) and (max-width: 768px) 
+{
+    .sidebar{
+        li{
+            font-size: 1.2rem;
+            margin-bottom: .8rem;
+        }
+    }
+}

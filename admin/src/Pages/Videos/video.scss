@@ -1,0 +1,172 @@
+$maintheme:#db0c26;
+.searchuser{
+    padding: 1rem;
+    input{
+        padding: .3rem;
+        border-style: none;
+        border-bottom: 1px solid grey;
+        &:focus{
+            outline: none;
+        }
+    }
+    button{
+        padding: .3rem;
+        margin-left: .5rem;
+        background-color: #000;
+        color: #fff;
+        cursor: pointer;
+        border-style: none;
+    }
+}
+
+.video{
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sec1{
+    width: 30%;
+    background-color: #fff;
+        min-height: 100vh;
+}
+.videos{
+    width: 70%;
+    min-height: 100vh;
+    background-color: #fff;
+    h2{
+        margin: 1rem;
+        color: #000;
+    }
+}
+.allvideos{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    .sinvid{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        overflow: hidden;
+        margin: .5rem;
+        background-color: #fff;
+        width: 25%;
+        span{
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: .5rem;
+        }
+        p{
+            margin: .5rem;
+            text-align: justify;
+        }
+    }
+
+}
+.im{
+    width: 100%;
+    height:200px;
+    object-fit: cover;
+}
+.buttons{
+    margin: .5rem;
+    button{
+        padding: .5rem;
+        border-style: none;
+        color: #fff;
+        background-color: #000;
+        cursor: pointer;
+        margin-right: .2rem;
+        &:hover{
+            background-color:$maintheme ;
+            color: #000;
+            transition: 1s;
+        }
+    }
+}
+@media only screen and (max-width: 480px)
+{
+
+    .videos{
+        flex-direction: column;
+        h2{
+            margin: .6rem;
+        }
+    }
+    .allvideos{
+        padding: .6rem;
+        .sinvid{
+            width: 100%;
+            margin: .3rem;
+            span{
+                font-size: 1.1rem;
+                margin: .3rem;
+            }
+            p{
+                margin: .3rem;
+            }
+        }
+    
+    }
+    .im{
+        height:130px;
+    }
+    .buttons{
+        margin: .3rem;
+        button{
+            padding: .3rem;
+        }
+    }
+    .searchuser{
+        padding: .5rem;
+        input{
+            padding: .2rem;
+        }
+        button{
+            padding: .2rem;
+            margin-left: .3rem;
+        }
+    }
+    
+    
+}
+@media only screen and(min-width:481px) and (max-width: 768px) 
+{
+    .videos{
+        h2{
+            margin: .8rem;
+        }
+    }
+    .allvideos{
+        padding: .7rem;
+        .sinvid{
+            margin: .4rem;
+            width: 100%;
+            span{
+                font-size: 1.2rem;
+                margin: .4rem;
+            }
+            p{
+                margin: .4rem;
+            }
+        }
+    
+    }
+    .im{
+        height:150px;
+    }
+    .buttons{
+        margin: .4rem;
+        button{
+            padding: .4rem;
+        }
+    }
+    .searchuser{
+        padding: .7rem;
+        input{
+            padding: .2rem;
+        }
+        button{
+            padding: .2rem;
+            margin-left: .3rem;
+        }
+    }
+
+}

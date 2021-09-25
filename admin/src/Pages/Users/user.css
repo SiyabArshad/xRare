@@ -1,0 +1,119 @@
+.searchuser {
+  padding: 1rem;
+}
+
+.searchuser input {
+  padding: .3rem;
+  border-style: none;
+  border-bottom: 1px solid grey;
+}
+
+.searchuser input:focus {
+  outline: none;
+}
+
+.searchuser button {
+  padding: .3rem;
+  margin-left: .5rem;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  border-style: none;
+}
+
+.users {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.se1 {
+  width: 30%;
+  background-color: #fff;
+  min-height: 100vh;
+}
+
+.se2 {
+  width: 70%;
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+.se2 h2 {
+  color: #000;
+  margin: 1rem;
+}
+
+.se2 table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  background-color: #fff;
+  min-width: 100%;
+}
+
+.se2 td, .se2 th {
+  text-align: left;
+  padding: 8px;
+}
+
+.se2 tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.up {
+  cursor: pointer;
+  color: green;
+}
+
+.de {
+  cursor: pointer;
+  color: red;
+}
+
+@media only screen and (max-width: 480px) {
+  .sec2 h2 {
+    margin: .6rem;
+  }
+  .sec2 .tbl {
+    overflow-x: scroll;
+  }
+  .sec2 td, .sec2 th {
+    padding: 5px;
+  }
+  .searchuser {
+    padding: .5rem;
+  }
+  .searchuser input {
+    padding: .2rem;
+  }
+  .searchuser button {
+    padding: .2rem;
+    margin-left: .3rem;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .sec2 h2 {
+    margin: .8rem;
+  }
+  .sec2 .tbl {
+    overflow-x: scroll;
+  }
+  .sec2 td, .sec2 th {
+    padding: 6px;
+  }
+  .searchuser {
+    padding: .7rem;
+  }
+  .searchuser input {
+    padding: .2rem;
+  }
+  .searchuser button {
+    padding: .2rem;
+    margin-left: .3rem;
+  }
+}
+/*# sourceMappingURL=user.css.map */

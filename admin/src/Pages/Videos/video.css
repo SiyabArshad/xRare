@@ -1,0 +1,189 @@
+.searchuser {
+  padding: 1rem;
+}
+
+.searchuser input {
+  padding: .3rem;
+  border-style: none;
+  border-bottom: 1px solid grey;
+}
+
+.searchuser input:focus {
+  outline: none;
+}
+
+.searchuser button {
+  padding: .3rem;
+  margin-left: .5rem;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  border-style: none;
+}
+
+.video {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.sec1 {
+  width: 30%;
+  background-color: #fff;
+  min-height: 100vh;
+}
+
+.videos {
+  width: 70%;
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+.videos h2 {
+  margin: 1rem;
+  color: #000;
+}
+
+.allvideos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.allvideos .sinvid {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  overflow: hidden;
+  margin: .5rem;
+  background-color: #fff;
+  width: 25%;
+}
+
+.allvideos .sinvid span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: .5rem;
+}
+
+.allvideos .sinvid p {
+  margin: .5rem;
+  text-align: justify;
+}
+
+.im {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.buttons {
+  margin: .5rem;
+}
+
+.buttons button {
+  padding: .5rem;
+  border-style: none;
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
+  margin-right: .2rem;
+}
+
+.buttons button:hover {
+  background-color: #db0c26;
+  color: #000;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+@media only screen and (max-width: 480px) {
+  .videos {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .videos h2 {
+    margin: .6rem;
+  }
+  .allvideos {
+    padding: .6rem;
+  }
+  .allvideos .sinvid {
+    width: 100%;
+    margin: .3rem;
+  }
+  .allvideos .sinvid span {
+    font-size: 1.1rem;
+    margin: .3rem;
+  }
+  .allvideos .sinvid p {
+    margin: .3rem;
+  }
+  .im {
+    height: 130px;
+  }
+  .buttons {
+    margin: .3rem;
+  }
+  .buttons button {
+    padding: .3rem;
+  }
+  .searchuser {
+    padding: .5rem;
+  }
+  .searchuser input {
+    padding: .2rem;
+  }
+  .searchuser button {
+    padding: .2rem;
+    margin-left: .3rem;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .videos h2 {
+    margin: .8rem;
+  }
+  .allvideos {
+    padding: .7rem;
+  }
+  .allvideos .sinvid {
+    margin: .4rem;
+    width: 100%;
+  }
+  .allvideos .sinvid span {
+    font-size: 1.2rem;
+    margin: .4rem;
+  }
+  .allvideos .sinvid p {
+    margin: .4rem;
+  }
+  .im {
+    height: 150px;
+  }
+  .buttons {
+    margin: .4rem;
+  }
+  .buttons button {
+    padding: .4rem;
+  }
+  .searchuser {
+    padding: .7rem;
+  }
+  .searchuser input {
+    padding: .2rem;
+  }
+  .searchuser button {
+    padding: .2rem;
+    margin-left: .3rem;
+  }
+}
+/*# sourceMappingURL=video.css.map */

@@ -1,0 +1,143 @@
+$maintheme:#db0c26;
+.upload{
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sec1{
+    width: 30%;
+    background-color: #fff;
+    min-height: 100vh;
+}
+.sec2{
+    width: 70%;
+    min-height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    form{
+        padding: 1rem;
+        img{
+            width: 100%;
+            height: 200px;
+        }
+        button{
+            border-style: none;
+            padding: .4rem;
+            margin-top: .5rem;
+            background-color: #000;
+            color: #fff;
+            cursor: pointer;
+            &:hover{
+                background-color: $maintheme;
+                color: #000;
+                transition: 1s;
+            }
+        }
+    }
+}
+.lbl{
+    display: block;
+    font-size: 1.5rem;
+    margin-top: .5rem;
+}
+.inp{
+    margin-top: .5rem;
+    border-style: none;
+    border-bottom: 1px solid grey;
+    width: 100%;
+    padding: .2rem;
+    border-radius: .2rem;
+    font-size: 1.2rem;
+    &:focus{
+        outline: none;
+    }
+}
+.categ{
+    background-color:#000;
+    border-style: none;
+    color: #fff;
+    font-size:1.1rem ;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    &:focus{
+        outline: none;
+    }
+}
+.sucse{
+    background-color: green;
+    color: #fff;
+    padding: .1rem;
+    text-align: center;
+}
+.fail{
+    background-color: red;
+    color: #fff;
+    padding: .1rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 480px)
+{
+    .categ{
+        font-size:1rem ;
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+    }
+    .sec2{
+        form{
+            padding: .5rem;
+            img{
+                height: 130px;
+            }
+            button{
+                padding: .2rem;
+                margin-top: .2rem;
+            }
+        }
+    }
+    
+    .lbl{
+        font-size: 1.1rem;
+        margin-top: .2rem;
+    }
+    .inp{
+        margin-top: .2rem;
+        padding: .1rem;
+        border-radius: .1rem;
+        font-size: 1rem;
+    }
+    
+}
+@media only screen and(min-width:481px) and (max-width: 768px) 
+{
+    .categ{
+        font-size:1rem ;
+        margin-top: .7rem;
+        margin-bottom: .7rem;
+    }
+    .sec2{
+        form{
+            padding: .7rem;
+            img{
+                height: 150px;
+            }
+            button{
+                padding: .3rem;
+                margin-top: .3rem;
+            }
+        }
+    }
+ 
+    .lbl{
+        font-size: 1.2rem;
+        margin-top: .3rem;
+    }
+    .inp{
+        margin-top: .3rem;
+        padding: .2rem;
+        border-radius: .15rem;
+        font-size: 1.2rem;
+    }
+}

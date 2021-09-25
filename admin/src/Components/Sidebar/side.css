@@ -1,0 +1,74 @@
+.dm {
+  color: #db0c26;
+  margin-right: .5rem;
+}
+
+.dm:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+  color: #000;
+}
+
+.logo {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  color: #000;
+}
+
+.lik {
+  color: #000;
+  text-decoration: none;
+}
+
+.sidebar {
+  position: relative;
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+}
+
+.sidebar ul {
+  position: relative;
+  top: 20%;
+}
+
+.sidebar li {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #000;
+  cursor: pointer;
+}
+
+.sidebar li img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+  color: #db0c26;
+}
+
+@media only screen and (max-width: 480px) {
+  .sidebar li {
+    font-size: 1rem;
+    margin-bottom: .7rem;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .sidebar li {
+    font-size: 1.2rem;
+    margin-bottom: .8rem;
+  }
+}
+/*# sourceMappingURL=side.css.map */
