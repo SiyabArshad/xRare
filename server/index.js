@@ -1,0 +1,20 @@
+const express=require('express')
+const app=express()
+const dotenv=require('dotenv')
+const Connection=require('./config/Db')
+const auth=require('./routes/auth')
+const users=require('./routes/user')
+const videos=require('./routes/movie')
+const cors=require('cors')
+Connection()
+dotenv.config()
+app.use(express.json())
+app.use(cors({
+    origin:"http://localhost:3000"
+}))
+app.use('/xrare',auth)
+app.use('/xrare',users)
+app.use('/xrare',videos)
+app.listen(process.env.Port,()=>{
+    console.log("backend is running",process.env.Port)
+})
