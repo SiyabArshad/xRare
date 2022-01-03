@@ -126,12 +126,12 @@ router.post("/reset",async(req,res)=>{
       let mailTransporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-            user: 'siyabarshadsatti@gmail.com',
-            pass: 'khuzdarbalochistan7788'
+            user: 'your@gmail.com',
+            pass: '******'
         }
     });
     let mailDetails = {
-        from: 'siyabarshadsatti@gmail.com',
+        from: 'youremail@gmail.com',
         to: req.body.email,
         subject: 'xRare Password Recovery',
         text: `we provide you a new password ${pass} kindly update it later Thank you`
